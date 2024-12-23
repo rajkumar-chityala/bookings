@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://kit.fontawesome.com/30792213b3.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=montserrat:wgt@400;500&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+    <section class="hero-section">
+        <div class="hero-text">
+            <h1>Welcome to paradise Hotel</h1>
+            <p style="margin: 10px 0px;">
+                We provide arooms at very good price along with great amenities to take 
+                your living experience awesome</p>
+            <button class="book-botton">book</button>
+        </div>
+        
+    </section>
+    <h1 class="about-heading">About Us</h1>
+    <section class="about-section">
+        <div class="about-us">
+            <p>A paragraph is defined as “a group of sentences or a single sentence that forms a unit” 
+                (Lunsford and Connors 116). Length and appearance do not determine whether a 
+                section in a paper is a paragraph.</p>
+            <br>
+            <p>For instance, in some styles of writing, particularly journalistic styles,
+                 a paragraph can be just one sentence long.</p>
+            <button class="know-more">know more...</button>
+        </div>
+        <div class="amenities">
+            <h3>Amenities we have</h3>
+            <ul>
+                <li><i class="fa-solid fa-wifi"></i>high speed internet</li>
+                <li><i class="fa-solid fa-egg"></i>complentary breakfast</li>
+                <li><i class="fa-solid fa-person-swimming"></i>swimming pool</li>
+                <li><i class="fa-solid fa-dumbbell"></i>gym</li>
+                <li><i class="fa-solid fa-mug-saucer"></i>cafeteria</li>
+            </ul>
+        </div>
+    </section>
+    <h1 class="room-heading">Room Types</h1>
+    <section class="room-type-container">
+        <div class="rooms-list">
+            <h3>Single occupacy Rooms</h3>
+            <p>Chateau de Savennes guest house is set in a large park with views of the Puy de Sancy mountain.
+                 It offers free Wi-Fi internet access in public areas and luxury suites with parquet floors.</p>
+            <h3>Family Rooms</h3>
+            <p>A recently renovated holiday home situated in Messeix, Gîte L'Instant Présent features a garden. 
+                This property offers access to tennis at the tennis court, free private parking and free WiFi.</p>
+            <h3>Duplex Rooms</h3>
+            <p>Offering a garden and inner courtyard view, 
+                Location saisonnière La Berbère is situated in Tauves,
+                26 km from Col de la Croix-Morand and 34 km from Pavin Lake.</p>
+        </div>
+        <div class="room-images">
+            <img src="room.jpg" alt="room-images">
+            </section>
+    <div class="help-button">
+        <h4>Need Help?</h4>
+    </div>
+    <h2 class="form-heading">Fill the form for booking room</h2>
+    <section class="form-container">
+        <form>
+            <div class="form-group">
+                <label for="name">Your Full Name</label><br>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Id</label><br>
+                <input type="email" id="email"required>
+            </div>
+            <div class="form-group">
+                <label for="booking-date">Date of Booking </label><br>
+                <input type="date" id="booking-date" required>
+            </div>
+            <div class="form-group">
+                <label for="room-type">Select Room Type</label><br>
+                <select name="room-type" id="room-type" required>
+                    <option value="selected disabled">Select...</option>
+                    <option value="single room">Single Room</option>
+                    <option value="family room">Family Room</option>
+                    <option value="duplex room">Duplex Room</option>
+                </select>
+            </div>
+            <input type="submit" value="book">
+        </form>
+    </section>
+</body>
+</html>
